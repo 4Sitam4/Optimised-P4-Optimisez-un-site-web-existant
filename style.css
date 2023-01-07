@@ -89,11 +89,11 @@ a:hover {
   left: 0;
   right: 0;
 }
-/* 
+
 .texture-paper::before {
-  background: url("img_converted/texture-paper.webp");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
-} */
+}
 
 .b-parallax {
   background-attachment: fixed;
@@ -809,15 +809,16 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img_converted/dots-bg.webp");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-banniere {
-  background-image: url("img_converted/agence-la-panthere.webp");
+  background-image: url("img/agence-la-panthere.webp");
+  background-size: cover;
 }
 
 .bg-presentation {
-  background-image: url("img_converted/image-de-presentation.webp");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
