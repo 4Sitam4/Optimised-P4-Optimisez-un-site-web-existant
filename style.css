@@ -306,13 +306,8 @@ a:hover {
 }
 
 .navbar-brand img {
-  max-height: 200px;
-  margin: 0 5px 0 0;
-  display: inline;
-}
-
-.navbar-brand img[src$="svg"] {
-  min-width: 100px;
+  max-height: 55px;
+  width: auto;
 }
 
 .nav-center .navbar-brand img {
@@ -960,10 +955,6 @@ h4 {
     overflow-x: hidden;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
-  .navbar-brand img {
-    max-height: 40px;
-    width: auto;
   }
   .nav-invert .navbar-header {
     float: none;
