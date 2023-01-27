@@ -17,19 +17,19 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/blocs.min.js"></script>
-    <script src="./js/jquery.touchSwipe.js"></script>
+    <script src="./js/jquery-2.1.0.min.js" defer></script>
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/blocs.min.js" defer></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
 
     <title>La Panthère</title>
   </head>
   <body class="page-container">
     <!-- Principal conteneur -->
     <!-- bloc-0 -->
-    <header class="bloc bgc-white l-bloc" id="bloc-0">
+    <header aria-label="header" class="bloc bgc-white l-bloc" id="bloc-0">
       <div class="container bloc-sm">
-        <nav class="navbar row">
+        <nav aria-label="navigation principale" class="navbar row">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html"
               ><img
@@ -51,10 +51,10 @@
           <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
             <ul class="site-navigation nav navbar-nav">
               <li>
-                <a href="index.html">Accueil</a>
+                <a aria-label="Retour à l'accueil" href="index.html">Accueil</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a aria-label="Aller à la page contact" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@
 
     <!-- bloc-1-presentation -->
     <div
-      class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+      aria-labelledby="présentation" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
       id="bloc-1-hero"
     >
       <div class="container bloc-lg">
@@ -194,7 +194,7 @@
 
     <!-- bloc-4-portfolio -->
     <div
-      class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
+      aria-labelledby="portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
       id="bloc-4-portfolio"
     >
       <div class="container bloc-lg">
